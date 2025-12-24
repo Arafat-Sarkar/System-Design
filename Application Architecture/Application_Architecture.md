@@ -25,7 +25,7 @@ The application is divided into two layers:
 **Real-Life Example:**  
 A desktop billing software that directly connects to a MySQL database.
 
-![Logo](https://files.codingninjas.in/article_images/two-tier-architecture-0-1648535544.webp)
+![Logo](https://admin.wac.co/uploads/2_Tier_Architecture_a5a13829ff.jpg)
 ---
 
 ## 3. N-Tier Architecture
@@ -35,7 +35,7 @@ The application is divided into multiple layers such as presentation, business l
 
 **Real-Life Example:**  
 A banking web app with:
-- Frontend (React)
+- Frontend (webpReact)
 - Backend API (Django / Spring Boot)
 - Database (PostgreSQL)
 
