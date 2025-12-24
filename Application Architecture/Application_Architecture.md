@@ -25,6 +25,7 @@ The application is divided into two layers:
 **Real-Life Example:**  
 A desktop billing software that directly connects to a MySQL database.
 
+![Logo](https://files.codingninjas.in/article_images/two-tier-architecture-0-1648535544.webp)
 ---
 
 ## 3. N-Tier Architecture
@@ -38,6 +39,8 @@ A banking web app with:
 - Backend API (Django / Spring Boot)
 - Database (PostgreSQL)
 
+
+![Logo](https://duws858oznvmq.cloudfront.net/Software_Architecture_19e72af214.webp)
 ---
 
 ## 4. Modular Monolithic Architecture
@@ -48,6 +51,7 @@ A single deployable application, but internally divided into well-structured mod
 **Real-Life Example:**  
 A large Django project where users, orders, payments, and reports are separate apps but deployed together.
 
+![Logo](https://miro.medium.com/v2/resize:fit:1386/1*2rHuVEn-Jv4yKX1tp-rMzA.png)
 ---
 
 ## 5. Microservices Architecture
@@ -58,6 +62,8 @@ The application is split into small, independent services that communicate via A
 **Real-Life Example:**  
 Netflix system where user service, recommendation service, and billing service run separately.
 
+
+![Logo](https://miro.medium.com/1*Jn_OZgq9dAG854kLEvG_-Q.png)
 ---
 
 ## 6. Event-Driven Architecture
@@ -68,6 +74,7 @@ Services communicate through events instead of direct API calls.
 **Real-Life Example:**  
 An order system where placing an order triggers events for email notification, inventory update, and payment processing.
 
+![Logo](https://media.geeksforgeeks.org/wp-content/uploads/20240205162514/event-driven-architecture.webp)
 ---
 
 ## 7. Cloud-Native Architecture
@@ -78,6 +85,7 @@ Applications designed to run fully in the cloud using containers, orchestration,
 **Real-Life Example:**  
 A SaaS application deployed using Docker, Kubernetes, AWS RDS, and AWS S3.
 
+![Logo](https://www.beyondnow.com/ecomaXL/files/Blog_cloud_native_image.png?w=1043)
 ---
 
 ## 8. Serverless Architecture
@@ -88,6 +96,7 @@ Developers write code without managing servers; execution happens on demand.
 **Real-Life Example:**  
 Image upload system using AWS Lambda that resizes images automatically when uploaded.
 
+![Logo](https://media.geeksforgeeks.org/wp-content/uploads/20251101172425634910/serverless-computing.webp)
 ---
 
 ## Summary Table
@@ -107,4 +116,4 @@ Image upload system using AWS Lambda that resizes images automatically when uplo
 
 ## Author
 
-**Md. Arafat Hossain Sarkar**
+**Arafat Sarkar**
