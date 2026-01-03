@@ -10,13 +10,13 @@ Microservice Architecture is a way of building software where an application is 
 
 Microservices allow multiple teams to work in parallel. This helps deliver new features faster and respond quickly to changes.
 
-#### Independent deployment
+#### Independent deployment:
 Each service can be deployed or updated separately without affecting the entire application.
 
-### Smaller codebase
+#### Smaller codebase:
 Every service has a small and focused codebase, making it easier to understand, maintain, and debug.
 
-### Experimentation & innovation
+#### Experimentation & innovation:
 Teams can safely experiment with new ideas or technologies on individual services without risking the whole system.
 
 ---
@@ -25,13 +25,13 @@ Teams can safely experiment with new ideas or technologies on individual service
 
 Microservices make the system easier to scale and more resilient. Individual services can handle growth and failures independently.
 
-### Horizontal scaling
+#### Horizontal scaling:
 Each service can be scaled out by adding more instances instead of upgrading a single server.
 
-### Fault isolation
+#### Fault isolation:
 If one service fails, it does not bring down the entire application. Other services continue to work normally.
 
-### Increased uptime 
+#### Increased uptime: 
 Because failures are isolated and services can be updated independently, the overall system stays available for a longer time.
 
 ---
@@ -40,13 +40,13 @@ Because failures are isolated and services can be updated independently, the ove
 
 Microservices help align the organization with the system architecture. Teams clearly own specific services.
 
-### Aligned team and service 
+#### Aligned team and service: 
 Each team is responsible for one or more services end-to-end, from development to deployment and maintenance.
 
-### Microservice teams
+#### Microservice teams:
 Teams are small, cross-functional, and focused on a single service, which improves accountability and speed.
 
-### Improved communication & collaboration 
+#### Improved communication & collaboration: 
 Clear ownership reduces dependency between teams, leading to better communication and smoother collaboration.
 
 ---
@@ -55,13 +55,13 @@ Clear ownership reduces dependency between teams, leading to better communicatio
 
 Microservices allow organizations to adopt new technologies gradually without rewriting the entire system.
 
-### Polyglot architecture
+#### Polyglot architecture:
 Different services can use different programming languages, frameworks, or databases based on what fits best.
 
-### Modular modernization 
+#### Modular modernization:
 Legacy systems can be modernized step by step by breaking them into smaller services.
 
-### Leveraging cloud-native technology 
+#### Leveraging cloud-native technology: 
 Microservices work well with cloud-native tools like containers, Kubernetes, auto-scaling, and managed cloud services.
 
 ---
@@ -72,59 +72,59 @@ A service is a small, self-contained software component that performs one specif
 
 ## Service Key Characteristics
 
-### Independent deployment 
+#### Independent deployment:
 A service can be developed, tested, and deployed without impacting other services.
 
-### Focused functionality
+#### Focused functionality:
 Each service is responsible for a single, clearly defined task or business capability.
 
-### Loose coupling
+#### Loose coupling:
 Services depend on each other as little as possible, interacting only through APIs.
 
-### Private data ownership
+#### Private data ownership:
 Each service manages and owns its own data; other services cannot directly access it.
 
-### Technology agnostic
+#### Technology agnostic:
 A service can be built using any programming language, framework, or database that best fits its needs.
 
 ---
 
 ## Steps to Migrate from Monolithic to Microservices Architecture
 
-### Step 1: Assessment and Planning 
+#### Step 1: Assessment and Planning 
 Examine your current monolithic application to understand its structure, dependencies, and pain points. Set clear goals for why you want to migrate and plan the migration strategy carefully.
 
-### Step 2: Decomposition
+#### Step 2: Decomposition
 Break down the monolith into smaller logical modules. Identify which parts can become independent services and how they interact.
 
-### Step 3: Service Identification and Design 
+#### Step 3: Service Identification and Design 
 Define each microservice clearly, including its responsibility, API contracts, and boundaries. Make sure services focus on single business capabilities.
 
-### Step 4: Technology Selection
+#### Step 4: Technology Selection
  Choose the best technology stack, databases, and frameworks for each service, depending on its requirements. Microservices allow different technologies for different services.
 
-### Step 5: Infrastructure Setup 
+#### Step 5: Infrastructure Setup 
 Prepare the environment for running microservices. This includes cloud platforms, containers (like Docker), orchestration tools (like Kubernetes), and CI/CD pipelines.
 
-### Step 6: Implementation
+#### Step 6: Implementation
 Start building individual services based on the design. Ensure they are independent, modular, and follow coding standards.
 
-### Step 7: Data Management 
+#### Step 7: Data Management 
 Decide how each service will manage its own database or storage. Avoid shared databases where possible to ensure independence.
 
-### Step 8: Integration and Interoperability 
+#### Step 8: Integration and Interoperability 
 Enable services to communicate with each other via APIs, message queues, or event-driven mechanisms while keeping them loosely coupled.
 
-### Step 9: Testing and Validation
+#### Step 9: Testing and Validation
 Test services individually (unit tests) and together (integration tests) to ensure correct functionality, performance, and reliability.
 
-### Step 10: Deployment and Monitoring 
+#### Step 10: Deployment and Monitoring 
 Deploy services independently using automated pipelines. Set up monitoring, logging, and alerting to detect issues early.
 
-### Step 11: Incremental Rollout and Refinement
+#### Step 11: Incremental Rollout and Refinement
  Migrate gradually, starting with non-critical services. Learn from each step, refine services, and fix issues iteratively.
 
-### Step 12: Organizational Alignment and Culture 
+#### Step 12: Organizational Alignment and Culture 
 Align teams and processes to support microservices. Encourage ownership, collaboration, and a culture of continuous improvement.
 
 ![Logo](https://media.geeksforgeeks.org/wp-content/uploads/20240410155559/Steps-to-Migrate-From-Monolithic-to-Microservices-Architecture_1.webp)
@@ -149,7 +149,7 @@ Align teams and processes to support microservices. Encourage ownership, collabo
 
 **Example:** Service A sends an order message to Service B via a queue and continues processing.
 
-###HTTP / RESTful APIs
+### HTTP / RESTful APIs
 
 - Synchronous communication using standard HTTP requests (GET, POST, PUT, DELETE).
 - Data usually in JSON or XML format.
