@@ -11,24 +11,20 @@ Microservice Architecture is a way of building software where an application is 
 Microservices allow multiple teams to work in parallel. This helps deliver new features faster and respond quickly to changes.
 
 **Independent deployment:**
-
 Each service can be deployed or updated separately without affecting the entire application.
 
 **Smaller codebase:**
-
 Every service has a small and focused codebase, making it easier to understand, maintain, and debug.
 
 **Experimentation & innovation:**
- 
 Teams can safely experiment with new ideas or technologies on individual services without risking the whole system.
-
 ---
 
 ## Scalability & resilience
 
 Microservices make the system easier to scale and more resilient. Individual services can handle growth and failures independently.
 
-**Horizontal scaling:** 
+**Horizontal scaling:**
 Each service can be scaled out by adding more instances instead of upgrading a single server.
 
 **Fault isolation:** 
@@ -36,7 +32,6 @@ If one service fails, it does not bring down the entire application. Other servi
 
 **Increased uptime:** 
 Because failures are isolated and services can be updated independently, the overall system stays available for a longer time.
-
 ---
 
 ## Organizational alignment & ownership
