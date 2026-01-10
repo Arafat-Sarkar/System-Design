@@ -10,7 +10,7 @@ Microservice Architecture is a way of building software where an application is 
 
 Microservices allow multiple teams to work in parallel. This helps deliver new features faster and respond quickly to changes.
 
-#### Independent deployment:
+#### Independent deployment: 
 Each service can be deployed or updated separately without affecting the entire application.
 
 #### Smaller codebase:
