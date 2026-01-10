@@ -29,7 +29,7 @@ Microservices make the system easier to scale and more resilient. Individual ser
 Each service can be scaled out by adding more instances instead of upgrading a single server.
 
 #### Fault isolation:
-If one service fails, it does not bring down the entire application. Other services continue to work normally.
+If one service fails, it does not bring down the entire application. Other services continue to work normally. 
 
 #### Increased uptime: 
 Because failures are isolated and services can be updated independently, the overall system stays available for a longer time.
